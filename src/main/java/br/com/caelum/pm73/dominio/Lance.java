@@ -11,7 +11,7 @@ import javax.persistence.ManyToOne;
 public class Lance {
 
 	@Id @GeneratedValue
-	private int id;
+	private Integer id;
 	private double valor;
 	private Calendar data;
 	@ManyToOne
